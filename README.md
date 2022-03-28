@@ -1,2 +1,2 @@
 # Admin-Dashboard
-Repo for Admin Dashboard project from The Odin Project
+Final Project in the Intermediate HTML&CSS section in The Odin Project
