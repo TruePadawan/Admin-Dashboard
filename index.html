@@ -4,10 +4,222 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9ceb4dfb5e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Dashboard | Admin</title>
 </head>
 <body>
-    
+    <div id="container">
+
+        <div id="header">
+
+            <div class="searchbarAndUsername">
+                <span class="sidebar-container">
+                    <label for="searchbar">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </label>
+                    <input type="text" id="searchbar">
+                </span>
+                <span>
+                    <i class="fa-solid fa-bell"></i>
+                    <img src="resources/githubPFP.png" alt="Hermes">
+                    <p>Hermes Chi</p>
+                </span>
+            </div>
+
+            <div class="header--main">
+                <span>
+                    <img src="resources/githubPFP.png" alt="Hermes">
+                    <small>Hi there,</small>
+                    <h2>Hermes Chi</h2>
+                </span>
+
+                <span>
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </span>
+            </div>
+
+        </div>
+
+        <div id="sidebar">
+            <h1>Dashboard</h1>
+
+            <ul>
+                <li>
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-address-card"></i>
+                    <span>Profile</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-message"></i>
+                    <span>Messages</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-clock"></i>
+                    <span>History</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-list-check"></i>
+                    <span>Tasks</span>
+                </li>
+                <li>
+                    <i class="fa-solid fa-users"></i>
+                    <span>Communities</span>
+                </li>
+                <li id="seperator"></li>
+                <li>
+                    <i class="fa-solid fa-gear"></i>
+                    <span>Settings</span>
+                </li>
+                <li>
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/support.png"/>
+                    <span>Support</span>
+                </li>
+                <li>
+                    <img src="https://img.icons8.com/ios-glyphs/30/000000/privacy.png"/>
+                    <span>Privacy</span>
+                </li>
+            </ul>
+        </div>
+        
+        <main>
+
+            <section aria-labelledby="projectsTitle" id="projects">
+                <h2 id="projectsTitle">Your Projects</h2>
+                <div class="_container">
+                    <div>
+                        <span></span>
+                        <span>
+                            <h3>Super Cool Project</h3>
+                            <p>
+                                Praesent semper feugiat nibh sed. Enim neque volutpat ac tincidunt vitae semper quis
+                                lectus. Egestas congue quisque egestas diam in arcu cursus euismod quis. Blandit massa
+                                enim nec dui.
+                            </p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <span></span>
+                        <span>
+                            <h3>Less Cool Project</h3>
+                            <p>
+                                Non consectetur a erat nam at lectus urna duis. Sed adipiscing diam donec adipiscing
+                                tristique risus nec. Sodales ut etiam sit amet. Pellentesque pulvinar pellentesque
+                                habitant morbi tristique senectus.
+                            </p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <span></span>
+                        <span>
+                            <h3>Impossible App</h3>
+                            <p>
+                                Non odio euismod lacinia at quis risus sed. Netus et malesuada fames ac. Elit at
+                                imperdiet dui accumsan sit amet. Sem nulla pharetra diam sit. At quis risus sed
+                                vulputate odio.
+                            </p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <span></span>
+                        <span>
+                            <h3>Easy Peasy App</h3>
+                            <p>
+                                Ligula ullamcorper malesuada proin libero nunc. Sed velit dignissim sodales ut eu. Duis
+                                convallis convallis tellus id interdum velit laoreet id donec.
+                            </p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <span></span>
+                        <span>
+                            <h3>Ad Blocker</h3>
+                            <p>
+                                Consectetur libero id faucibus nisl tincidunt eget nullam non. Arcu risus quis varius
+                                quam quisque id diam vel quam. Tempor commodo ullamcorper a lacus vestibulum sed arcu
+                                non.
+                            </p>
+                        </span>
+                    </div>
+
+                    <div>
+                        <span></span>
+                        <span>
+                            <h3>Money Maker</h3>
+                            <p>
+                                At in tellus integer feugiat scelerisque varius. Et netus et malesuada fames ac turpis
+                                egestas. Amet nisl suscipit adipiscing bibendum est ultricies integer.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+            <section aria-labelledby="announcementsTitle" id="announcements">
+                <h2 id="announcementsTitle">Announcements</h2>
+                <div class="_container">
+                    <span>
+                        <h4>Site Maintenance</h4>
+                        <p>
+                            Nulla aliquet porttitor lacus luctus accumsan tortor. Nibh sed pulvinar proin gravida
+                            hendrerit.
+                        </p>
+                    </span>
+                    <span>
+                        <h4>Community Share Day</h4>
+                        <p>
+                            Ultrices in iaculis nunc sed augue lacus viverra. Congue quisque egestas diam in arcu cursus
+                            euismod.
+                        </p>
+                    </span>
+                    <span>
+                        <h4>Updated Privacy Policy</h4>
+                        <p>
+                            Eget egestas purus viverra accumsan in nisl. Nunc lobortis mattis aliquam faucibus.
+                        </p>
+                    </span>
+                </div>
+            </section>
+
+            <section aria-labelledby="trendingTitle" id="trending">
+                <h2 id="trendingTitle">Trending</h2>
+                <div class="_container">
+                    <span>
+                        <img src="resources/githubPFP.png" alt="Hermes">
+                        <h5>@tegan</h5>
+                        <p>World Peace Builder</p>
+                    </span>
+                    
+                    <span>
+                        <img src="resources/githubPFP.png" alt="Hermes">
+                        <h5>@morgan</h5>
+                        <p>Super Cool Project</p>
+                    </span>
+
+                    <span>
+                        <img src="resources/githubPFP.png" alt="Hermes">
+                        <h5>@hermes</h5>
+                        <p>Life Changing App</p>
+                    </span>
+
+                    <span>
+                        <img src="resources/githubPFP.png" alt="Hermes">
+                        <h5>@alex</h5>
+                        <p>Na Traffic Maker</p>
+                    </span>
+                </div>
+            </section>
+
+        </main>
+    </div>
 </body>
 </html>
