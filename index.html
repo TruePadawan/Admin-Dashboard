@@ -7,6 +7,7 @@
     <script src="https://kit.fontawesome.com/9ceb4dfb5e.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="extra-style.css">
     <title>Dashboard | Admin</title>
 </head>
 <body>
@@ -15,27 +16,30 @@
         <div id="header">
 
             <div class="searchbarAndUsername">
-                <span class="sidebar-container">
+                <span class="searchbar-container">
                     <label for="searchbar">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <img class="img-sm" src="resources/search.svg" alt="Search">
                     </label>
                     <input type="text" id="searchbar">
                 </span>
-                <span>
-                    <i class="fa-solid fa-bell"></i>
+
+                <span class="navigation">
+                    <img class="img-sm cursor-ptr" src="resources/notifs.svg" alt="Notifications">
                     <img src="resources/githubPFP.png" alt="Hermes">
-                    <p>Hermes Chi</p>
+                    <h3>Hermes Chi</h3>
                 </span>
             </div>
 
             <div class="header--main">
-                <span>
+                <span class="hello">
                     <img src="resources/githubPFP.png" alt="Hermes">
-                    <small>Hi there,</small>
-                    <h2>Hermes Chi</h2>
+                    <div class="hello-text">
+                        <small><b>Hi there,</b></small>
+                        <h2>Hermes Chi (@hermes)</h2>
+                    </div>
                 </span>
 
-                <span>
+                <span class="btn-group">
                     <button>New</button>
                     <button>Upload</button>
                     <button>Share</button>
@@ -45,10 +49,10 @@
         </div>
 
         <div id="sidebar">
-            <h2>
+            <h1>
                 <span class="mdi mdi-view-dashboard navlogo"></span>
                 <span>Dashboard</span>
-            </h2>
+            </h1>
 
             <ul>
                 <li>
@@ -95,130 +99,168 @@
 
             <section aria-labelledby="projectsTitle" id="projects">
                 <h2 id="projectsTitle">Your Projects</h2>
-                <div class="_container">
+                <div class="_container projects-container">
                     <div>
-                        <span></span>
+                        <span class="yellow-side"></span>
                         <span>
-                            <h3>Super Cool Project</h3>
-                            <p>
+                            <h3 class="project-title">Super Cool Project</h3>
+                            <p class="color-grey">
                                 Praesent semper feugiat nibh sed. Enim neque volutpat ac tincidunt vitae semper quis
                                 lectus. Egestas congue quisque egestas diam in arcu cursus euismod quis. Blandit massa
                                 enim nec dui.
                             </p>
+                            <div class="project-btns">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
                         </span>
                     </div>
 
                     <div>
-                        <span></span>
+                        <span class="yellow-side"></span>
                         <span>
-                            <h3>Less Cool Project</h3>
-                            <p>
+                            <h3 class="project-title">Less Cool Project</h3>
+                            <p class="color-grey">
                                 Non consectetur a erat nam at lectus urna duis. Sed adipiscing diam donec adipiscing
                                 tristique risus nec. Sodales ut etiam sit amet. Pellentesque pulvinar pellentesque
                                 habitant morbi tristique senectus.
                             </p>
+                            <div class="project-btns">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
                         </span>
                     </div>
 
                     <div>
-                        <span></span>
+                        <span class="yellow-side"></span>
                         <span>
-                            <h3>Impossible App</h3>
-                            <p>
+                            <h3 class="project-title">Impossible App</h3>
+                            <p class="color-grey">
                                 Non odio euismod lacinia at quis risus sed. Netus et malesuada fames ac. Elit at
                                 imperdiet dui accumsan sit amet. Sem nulla pharetra diam sit. At quis risus sed
                                 vulputate odio.
                             </p>
+                            <div class="project-btns">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
                         </span>
                     </div>
 
                     <div>
-                        <span></span>
+                        <span class="yellow-side"></span>
                         <span>
-                            <h3>Easy Peasy App</h3>
-                            <p>
+                            <h3 class="project-title">Easy Peasy App</h3>
+                            <p class="color-grey">
                                 Ligula ullamcorper malesuada proin libero nunc. Sed velit dignissim sodales ut eu. Duis
                                 convallis convallis tellus id interdum velit laoreet id donec.
                             </p>
+                            <div class="project-btns">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
                         </span>
                     </div>
 
                     <div>
-                        <span></span>
+                        <span class="yellow-side"></span>
                         <span>
-                            <h3>Ad Blocker</h3>
-                            <p>
+                            <h3 class="project-title">Ad Blocker</h3>
+                            <p class="color-grey">
                                 Consectetur libero id faucibus nisl tincidunt eget nullam non. Arcu risus quis varius
                                 quam quisque id diam vel quam. Tempor commodo ullamcorper a lacus vestibulum sed arcu
                                 non.
                             </p>
+                            <div class="project-btns">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
                         </span>
                     </div>
 
                     <div>
-                        <span></span>
+                        <span class="yellow-side"></span>
                         <span>
-                            <h3>Money Maker</h3>
-                            <p>
+                            <h3 class="project-title">Money Maker</h3>
+                            <p class="color-grey">
                                 At in tellus integer feugiat scelerisque varius. Et netus et malesuada fames ac turpis
                                 egestas. Amet nisl suscipit adipiscing bibendum est ultricies integer.
                             </p>
+                            <div class="project-btns">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-eye"></i>
+                                <i class="fa-solid fa-share-nodes"></i>
+                            </div>
                         </span>
                     </div>
                 </div>
             </section>
 
-            <section aria-labelledby="announcementsTitle" id="announcements">
+            <section aria-labelledby="announcementsTitle" class="d-flex flex-d-col">
                 <h2 id="announcementsTitle">Announcements</h2>
-                <div class="_container">
-                    <span>
-                        <h4>Site Maintenance</h4>
-                        <p>
+                <div class="_container announcements">
+                    <span class="item d-block pd-y-1">
+                        <h4 class="mg-bottom-1">Site Maintenance</h4>
+                        <p class="color-grey">
                             Nulla aliquet porttitor lacus luctus accumsan tortor. Nibh sed pulvinar proin gravida
                             hendrerit.
                         </p>
                     </span>
-                    <span>
-                        <h4>Community Share Day</h4>
-                        <p>
+                    <span class="item d-block pd-y-1">
+                        <h4 class="mg-bottom-1">Community Share Day</h4>
+                        <p class="color-grey">
                             Ultrices in iaculis nunc sed augue lacus viverra. Congue quisque egestas diam in arcu cursus
                             euismod.
                         </p>
                     </span>
-                    <span>
-                        <h4>Updated Privacy Policy</h4>
-                        <p>
+                    <span class="item d-block pd-y-1">
+                        <h4 class="mg-bottom-1">Updated Privacy Policy</h4>
+                        <p class="color-grey">
                             Eget egestas purus viverra accumsan in nisl. Nunc lobortis mattis aliquam faucibus.
                         </p>
                     </span>
                 </div>
             </section>
 
-            <section aria-labelledby="trendingTitle" id="trending">
+            <section aria-labelledby="trendingTitle" id="trending" class="d-flex flex-d-col">
                 <h2 id="trendingTitle">Trending</h2>
-                <div class="_container">
-                    <span>
-                        <img src="resources/githubPFP.png" alt="Hermes">
-                        <h5>@tegan</h5>
-                        <p>World Peace Builder</p>
+                <div class="_container trending-container d-flex flex-d-col">
+                    <span class="d-flex">
+                        <img src="resources/img1.jpg" alt="snake">
+                        <div class="d-flex flex-d-col trending-text">
+                            <h5>@tegan</h5>
+                            <p class="color-grey">World Peace Builder</p>
+                        </div>
                     </span>
                     
-                    <span>
-                        <img src="resources/githubPFP.png" alt="Hermes">
-                        <h5>@morgan</h5>
-                        <p>Super Cool Project</p>
+                    <span class="d-flex">
+                        <img src="resources/img2.jpg" alt="seal">
+                        <div class="d-flex flex-d-col trending-text">
+                            <h5>@morgan</h5>
+                            <p class="color-grey">Super Cool Project</p>
+                        </div>
                     </span>
 
-                    <span>
+                    <span class="d-flex">
                         <img src="resources/githubPFP.png" alt="Hermes">
-                        <h5>@hermes</h5>
-                        <p>Life Changing App</p>
+                        <div class="d-flex flex-d-col trending-text">
+                            <h5>@hermes</h5>
+                            <p class="color-grey">Life Changing App</p>
+                        </div>
                     </span>
 
-                    <span>
-                        <img src="resources/githubPFP.png" alt="Hermes">
-                        <h5>@alex</h5>
-                        <p>Na Traffic Maker</p>
+                    <span class="d-flex">
+                        <img src="resources/puffin.jpg" alt="Puffin">
+                        <div class="d-flex flex-d-col trending-text">
+                            <h5>@alex</h5>
+                            <p class="color-grey">Na Traffic Maker</p>
+                        </div>
                     </span>
                 </div>
             </section>

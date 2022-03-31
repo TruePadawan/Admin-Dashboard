@@ -1,0 +1,42 @@
+.txt-bold {
+    font-weight: bold;
+}
+
+img.img-sm {
+    width: 30px;
+    height: auto;
+}
+
+.cursor-ptr {
+    cursor: pointer;
+}
+
+.d-block {
+    display: block;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-d-col {
+    flex-direction: column;
+}
+
+.mg-bottom-1 {
+    margin-bottom: 0.3rem;
+}
+
+.pd-y-1 {
+    padding: 14px 0;
+}
+
+.color-grey {
+    color: grey;
+}
+
+.yellow-side {
+    width: 2rem;
+    height: 100%;
+    background-color: darkgoldenrod;
+}
