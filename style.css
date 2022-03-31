@@ -117,6 +117,10 @@ h5 {
     box-shadow: 0 2px 4px lightgray;
 }
 
+.btn-group > button:hover {
+    padding: 14px 1.8rem;
+}
+
 /* SIDEBAR */
 
 #sidebar {
@@ -141,6 +145,10 @@ h5 {
     column-gap: 15px;
 }
 
+#sidebar li:hover {
+    font-size: larger;
+}
+
 #seperator {
     margin: 10px 0 10px 0;
 }
@@ -150,6 +158,7 @@ h5 {
 main {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
     background-color: rgb(223, 222, 222);
     padding: 2rem 1.4rem;
     gap: 3rem 2rem;
@@ -164,7 +173,11 @@ section > h2 {
 }
 
 /* --ANNOUNCEMENTS */
-.announcements,
+#announcements {
+    height: max-content;
+}
+
+.announcements-container,
 .trending-container {
     height: max-content;
     padding: 2rem;
@@ -172,7 +185,7 @@ section > h2 {
     box-shadow: 2px 4px 10px lightgray;
 }
 
-.announcements > .item:nth-child(-n+2) {
+.announcements-container > .item:nth-child(-n+2) {
     border-bottom: 1px solid rgba(204, 204, 204, 0.562);
 }
 
@@ -180,6 +193,7 @@ section > h2 {
 #trending {
     grid-column: 2;
     grid-row: 2;
+    height: max-content;
 }
 
 .trending-container {
@@ -192,6 +206,10 @@ section > h2 {
 }
 
 /* --PROJECTS */
+#projects {
+    grid-row: 1 / -1;
+}
+
 .projects-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
